@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+header{
+    background-color: #2D2D2D;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center; 
+    margin-left: 30px;
+}
+
+.logoImg{
+    margin-right: 30px;
+    width: 15%;
+}
+
+nav{
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin-right: 30px;
+}
+
+main{
+    background-color: #272727;
+    padding: 5% 10%;
+}
+
+.main1{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.userInfo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.user li{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-top: 20px;
+}
+
+.adres{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.comment textarea{
+    background: inherit;
+    font: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.comment textarea:focus, 
+.comment textarea:active{
+    border: 1px solid white;
+    outline: none;
+}
+
+.user input{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background: inherit;
+    width: 100%;
+    color: white;
+}
+
+.user input:focus, 
+.user input:active{
+    border: 1px solid white;
+    outline: none;
+}
+
+.button{
+    padding: 5px;
+    border: 1px solid white;
+    background: inherit;
+    border-radius: 5px;
+    font: inherit;
+    color: white;
+    width: 20%;
+}
+
+.footer1{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.footerUl{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footerImg{
+    background-image: url(../images/teachers.png);
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer1A{
+    color: #2D2D2D;
+}
+
+.footerLi{
+    padding-top: 20px;
+}
+
+.footer2{
+    background-color: #202020;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;   
+}
